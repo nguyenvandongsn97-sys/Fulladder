@@ -1,10 +1,7 @@
-# Tiny Tapeout project information
+yaml_version: 6
 project:
   title: "Full Adder"
   author: "Nguyen Van Dong Dong"
-  description: "A simple 1-bit full adder design"
-  how_it_works: "Implements a 1-bit full adder using logic gates."
-  pinout: "ui_in[0]=A, ui_in[1]=B, ui_in[2]=Cin, uo_out[0]=Sum, uo_out[1]=Cout"
-  
-# Optional: include information about your FPGA board if needed
-# fpga_board: "TinyFPGA-BX"
+  description: "Dự án Full Adder đơn giản cho đợt TTSKY26c"
+  how_it_works: "Thực hiện phép cộng 1-bit full adder bằng toán tử logic."
+  pinout: "A=ui_in[0], B=ui_in[1], Cin=ui_in[2], Sum=uo_out[0], Cout=uo_out[1]"
